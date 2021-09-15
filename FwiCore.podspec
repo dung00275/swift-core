@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.license       = 'MIT'
   s.author        = 'DungVu'
   s.platform      = :ios, "10.0"
-  s.source       = { :path => '.' }
+  # s.source       = { :path => '.' }
+  s.source = { :git => "https://github.com/dung00275/swift-core", :tag => "4.1.5" }
   s.source_files        = 'Sources/FwiCore/*.*'
   s.dependency 'Alamofire'
   s.dependency 'CocoaLumberjack'
