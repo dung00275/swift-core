@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.dependency 'RxCocoa'
   # s.dependency 'FwiCore', :git => 'https://github.com/dung00275/swift-core', :tag => '4.1.4'
   # s.dependency 'FwiCore', :podspec => "./FwiCore.podspec"
-  # s.dependency 'FwiCore', '1.0.0'
+  s.dependency 'FwiCore', '4.1.7'
 end
