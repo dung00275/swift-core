@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '10.0'
   # s.frameworks = 'Foundation'
   s.dependency 'Alamofire', '~> 5.4'
-  s.dependency 'CocoaLumberjack'
+  s.dependency 'CocoaLumberjack', '~> 3.7'
 end
