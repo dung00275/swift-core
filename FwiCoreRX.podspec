@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'FwiCoreRX'
-  s.version       = '4.2.4'
+  s.version       = '4.2.5'
   s.summary       = 'FwiCoreRX project'
   s.description   = 'Using for iOS project'
   s.homepage      = 'https://google.com.vn'
@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.author        = 'DungVu'
   s.platform      = :ios, "10.0"
   # s.source       = { :path => '.' }
-  s.source = { :git => 'https://github.com/dung00275/swift-core', :tag => '4.2.4' }
+  s.source = { :git => 'https://github.com/dung00275/swift-core', :tag => '4.2.5' }
   s.source_files        = 'Sources/FwiCoreRX/*.*'
-  s.dependency 'RxSwift', '5.1.3'
-  s.dependency 'RxCocoa', '5.1.3'
+  s.dependency 'RxSwift', '5.1.1'
+  s.dependency 'RxCocoa', '5.1.1'
   # s.dependency 'FwiCore', :git => 'https://github.com/dung00275/swift-core', :tag => '4.1.4'
   # s.dependency 'FwiCore', :podspec => "./FwiCore.podspec"
   s.dependency 'FwiCore'
